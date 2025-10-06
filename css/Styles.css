@@ -1,0 +1,58 @@
+:root{
+    --primary-color: #f5ebff;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--primary-color);
+    color: #000928;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    & nav {
+        display: flex;
+        flex-direction: row;
+        height: 85px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px 0 20px;
+
+        & h2 {
+         font-size: 25px;
+        }
+
+        & a{
+            text-decoration: none;
+            color: var(--secondary-color);
+            font-size: 18px;
+            font-weight: bold;
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: translateY(-3px);
+            }
+        }
+
+    }
+
+    & span:nth-child(1) {
+      color: var(--secondary-color);
+      font-size: 30px;
+    }
+
+    & span:nth-child(2) {
+        text-decoration: underline;
+        font-weight: lighter;   
+    }
+}
+
