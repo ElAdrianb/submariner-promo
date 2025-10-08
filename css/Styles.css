@@ -122,4 +122,61 @@ section.producto {
   background-color: #c6bbf7;
 }
 
+.Mas-Informacion {
+  color : #000928;
+  max-width: 800px;
+  margin: 40px auto;
+  padding-top: 40px;
+  text-align: center;
 
+  & h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  } 
+
+  & p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+}
+
+
+section.Card-section{
+  display: flex;
+  justify-content: center;
+  padding-top:50px ;
+  text-align: center;
+  color: white;
+}
+
+div.card1 {
+  background-color: #000928;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  padding: 20px;
+  width: 400px;
+  transition: transform 0.3s ease-in-out;
+}
+
+div.card2 {
+  background-color: #000928;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  padding: 20px;
+  width: 400px;
+  transition: transform 0.3s ease-in-out;
+}
+
+div.card3 {
+  background-color: #000928 ;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  padding: 20px;
+  width: 400px;
+  transition: transform 0.3s ease-in-out;
+}
