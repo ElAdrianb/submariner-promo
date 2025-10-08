@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #f5ebff;
+    --primary-color:white ;
 }
 
 body{
@@ -32,11 +32,16 @@ body{
         }
 
         & a{
+            display: inline-block;
+            background-color: #04295e;
+            border-radius: 30px;
+            padding: 5px 10px;
             text-decoration: none;
-            color: var(--secondary-color);
+            color: white;
             font-size: 18px;
             font-weight: bold;
             transition: transform 0.3s ease-in-out;
+
 
             &:hover {
                 transform: translateY(-3px);
@@ -48,11 +53,18 @@ body{
     & span:nth-child(1) {
       color: var(--secondary-color);
       font-size: 30px;
+      color: #000928;
+      text-transform: uppercase;
     }
 
     & span:nth-child(2) {
         text-decoration: underline;
         font-weight: lighter;   
+        color: #04295e;
+        text-transform: uppercase;
     }
 }
+
+
+
 
