@@ -180,3 +180,19 @@ div.card3 {
   width: 400px;
   transition: transform 0.3s ease-in-out;
 }
+
+
+div.contact-us {
+  background-color: #eff3ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  & h2 {
+    display: flex;
+    color: #000928;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+}
+
